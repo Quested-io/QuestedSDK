@@ -1,4 +1,4 @@
-name: Publish Scrimmage Frontend JS SDK to npmjs
+name: Publish Quested SDK to npmjs
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-      - run: npm run build
+      - run: npm run prepublishOnly
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
