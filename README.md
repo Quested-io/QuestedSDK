@@ -1,10 +1,8 @@
 # Quested SDK
 
-[![Continuous Integrations](https://github.com/Quested-io/QuestedSDK/actions/workflows/continuous-integrations.yaml/badge.svg?branch=main)](https://github.com/Quested-io/QuestedSDK/actions/workflows/continuous-integrations.yaml)
 [![License](https://badgen.net/github/license/Quested-io/QuestedSDK)](./LICENSE)
 [![Package tree-shaking](https://badgen.net/bundlephobia/tree-shaking/@quested/sdk)](https://bundlephobia.com/package/@quested/sdk)
 [![Package minified & gzipped size](https://badgen.net/bundlephobia/minzip/@quested/sdk)](https://bundlephobia.com/package/@quested/sdk)
-[![Package dependency count](https://badgen.net/bundlephobia/dependency-count/react@quested/sdk)](https://bundlephobia.com/package/@quested/sdk)
 
 ## Installation
 
