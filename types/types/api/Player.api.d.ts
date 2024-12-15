@@ -11,6 +11,13 @@ export interface PlayerApi {
     addToList(listId: string, itemId: string): Promise<void>;
 }
 export type ActivityEventType = 'event:activityEnded' | 'quest:configChanged' | 'request:getProfile' | 'request:me' | 'request:gameProperty' | 'request:allLists' | 'action:updateProfileSpecification' | 'action:setGameProperty' | 'action:removeFromList' | 'action:addToList';
+export interface ActivityBridgeEvent extends MessageEvent {
+    data: {
+        source: string;
+        type: ActivityEventType;
+        payload: ActivityEventData;
+    };
+}
 export interface ActivityEventData {
 }
 export interface ActivityEndedEventData extends ActivityEventData {

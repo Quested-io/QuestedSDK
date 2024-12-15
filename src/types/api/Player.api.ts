@@ -31,6 +31,14 @@ export type ActivityEventType =
   | 'action:removeFromList'
   | 'action:addToList';
 
+export interface ActivityBridgeEvent extends MessageEvent {
+  data: {
+    source: string;
+    type: ActivityEventType;
+    payload: ActivityEventData;
+  };
+}
+
 export interface ActivityEventData {
 }
 

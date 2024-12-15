@@ -6,6 +6,7 @@
 
 ## Interfaces
 
+- [ActivityBridgeEvent](interfaces/ActivityBridgeEvent.md)
 - [ActivityEndedEventData](interfaces/ActivityEndedEventData.md)
 - [ActivityEventData](interfaces/ActivityEventData.md)
 - [ConfigChangedEventData](interfaces/ConfigChangedEventData.md)

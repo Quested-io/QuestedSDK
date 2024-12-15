@@ -1,5 +1,5 @@
 /*!
- * @quested/sdk v0.1.4
+ * @quested/sdk v0.1.5
  * (c) Yevhenii Rachkovan
  * Released under the MIT License.
  */
