@@ -6,11 +6,11 @@
 
 ## Interfaces
 
+- [ActivityEndedEventData](interfaces/ActivityEndedEventData.md)
 - [ActivityEventData](interfaces/ActivityEventData.md)
+- [ConfigChangedEventData](interfaces/ConfigChangedEventData.md)
 - [InitOptions](interfaces/InitOptions.md)
 - [Instance](interfaces/Instance.md)
-- [MatchEndedEventData](interfaces/MatchEndedEventData.md)
-- [RouteChangedEventData](interfaces/RouteChangedEventData.md)
 
 ## Type Aliases
 

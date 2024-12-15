@@ -5,8 +5,8 @@ import type {InitOptions} from './types/InitOptions';
 import {
   ActivityEventData,
   ActivityEventType,
-  MatchEndedEventData,
-  RouteChangedEventData,
+  ActivityEndedEventData,
+  ConfigChangedEventData,
 } from './types/api/Player.api';
 
 let instance: Instance;
@@ -16,4 +16,4 @@ const init = (options: InitOptions) => {
 };
 
 export { init, create, instance };
-export type {Instance, InitOptions, ActivityEventType, ActivityEventData, MatchEndedEventData, RouteChangedEventData};
+export type {Instance, InitOptions, ActivityEventType, ActivityEventData, ActivityEndedEventData, ConfigChangedEventData};

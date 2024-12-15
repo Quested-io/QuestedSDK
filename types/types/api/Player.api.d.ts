@@ -10,15 +10,15 @@ export interface PlayerApi {
     removeFromList(listId: string, itemId: string): Promise<void>;
     addToList(listId: string, itemId: string): Promise<void>;
 }
-export type ActivityEventType = 'event:activityEnded' | 'quest:configChanged' | 'request:getProfile';
+export type ActivityEventType = 'event:activityEnded' | 'quest:configChanged' | 'request:getProfile' | 'request:me' | 'request:gameProperty' | 'request:allLists' | 'action:updateProfileSpecification' | 'action:setGameProperty' | 'action:removeFromList' | 'action:addToList';
 export interface ActivityEventData {
 }
-export interface MatchEndedEventData extends ActivityEventData {
+export interface ActivityEndedEventData extends ActivityEventData {
     durationInSeconds: number;
     mistakes?: number;
     answers?: number;
 }
-export interface RouteChangedEventData extends ActivityEventData {
+export interface ConfigChangedEventData extends ActivityEventData {
     oldSettings: string;
     newSettings: string;
 }

@@ -6,8 +6,8 @@
 
 # Type Alias: ActivityEventType
 
-> **ActivityEventType**: `"event:activityEnded"` \| `"quest:configChanged"` \| `"request:getProfile"`
+> **ActivityEventType**: `"event:activityEnded"` \| `"quest:configChanged"` \| `"request:getProfile"` \| `"request:me"` \| `"request:gameProperty"` \| `"request:allLists"` \| `"action:updateProfileSpecification"` \| `"action:setGameProperty"` \| `"action:removeFromList"` \| `"action:addToList"`
 
 ## Defined in
 
-[types/api/Player.api.ts:16](https://github.com/Quested-io/QuestedSDK/blob/3c926bace64edd594f0827ec501887cd4a53cdbb/src/types/api/Player.api.ts#L16)
+[types/api/Player.api.ts:22](https://github.com/Quested-io/QuestedSDK/blob/68ad308490407211065714b0ce812cc765cac26e/src/types/api/Player.api.ts#L22)

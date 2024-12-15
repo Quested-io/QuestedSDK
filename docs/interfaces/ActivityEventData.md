@@ -8,5 +8,5 @@
 
 ## Extended by
 
-- [`MatchEndedEventData`](MatchEndedEventData.md)
-- [`RouteChangedEventData`](RouteChangedEventData.md)
+- [`ActivityEndedEventData`](ActivityEndedEventData.md)
+- [`ConfigChangedEventData`](ConfigChangedEventData.md)
