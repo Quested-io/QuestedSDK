@@ -1,5 +1,5 @@
 import { inject, injectable } from 'inversify';
-import type { GameEvent, PlayerApi } from '../types/api/Player.api';
+import type { ActivityEventType, PlayerApi } from '../types/api/Player.api';
 import type { IProfile } from '../types/entities/IProfile';
 import { BridgeService } from '../utils/Bridge.service';
 import { CONFIG_INJECT_KEY } from '../config';
@@ -22,7 +22,7 @@ export class PlayerService implements PlayerApi {
       {},
     );
   }
-  async trackEvent(event: GameEvent, data: any): Promise<void> {
+  async trackEvent(event: ActivityEventType, data: any): Promise<void> {
     return this.bridgeService.send(this.options.activityId, event, data);
   }
   updateProfileSpecification(id: string, value: string): Promise<void> {

@@ -3,13 +3,11 @@ import type {Instance} from './types/Instance';
 import { PlayerService } from './api/Player.service';
 import type {InitOptions} from './types/InitOptions';
 import { CONFIG_INJECT_KEY } from './config';
-import { HttpService } from './utils/Http.service';
 import { LoggerService } from './utils/Logger.service';
 import type {OnInstanceInit} from './types/OnInstanceInit';
 
 const Components: any[] = [
   PlayerService,
-  HttpService,
   LoggerService,
 ];
 

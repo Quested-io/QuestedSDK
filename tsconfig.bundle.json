@@ -13,7 +13,6 @@
     "declaration": true,
     "declarationDir": "./types",
     "declarationMap": true,
-    "isolatedDeclarations": true,
 
     // Type-checking settings.
     "skipLibCheck": false,

@@ -4,10 +4,11 @@
 
 # Quested SDK
 
-## Type Aliases
+## Variables
 
-- [NumberParseable](type-aliases/NumberParseable.md)
+- [instance](variables/instance.md)
 
 ## Functions
 
-- [isNumberParseable](functions/isNumberParseable.md)
+- [create](functions/create.md)
+- [init](functions/init.md)

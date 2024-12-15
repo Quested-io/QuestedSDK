@@ -1,0 +1,1 @@
+{"version":3,"file":"IProfileSpecification.d.ts","sourceRoot":"","sources":["../../../src/types/entities/IProfileSpecification.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAC,cAAc,EAAC,MAAM,qBAAqB,CAAC;AAExD,MAAM,WAAW,qBAAqB;IACpC,EAAE,EAAE,MAAM,CAAC;IACX,aAAa,EAAE,cAAc,CAAA;IAC7B,SAAS,EAAE,MAAM,CAAC;IAClB,KAAK,EAAE,MAAM,CAAC;IACd,SAAS,EAAE,IAAI,CAAC;CACjB"}

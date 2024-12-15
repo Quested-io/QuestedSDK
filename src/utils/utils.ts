@@ -6,7 +6,7 @@ export const createBufferTime = <T>(
   subscriber: (values: T[]) => void,
 ): ((value: T) => void) => {
   let buffer: T[] = [];
-  let timeout = null;
+  let timeout: number | null = null;
 
   const emitBuffer = () => {
     subscriber(buffer);

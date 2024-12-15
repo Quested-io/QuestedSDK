@@ -21,8 +21,8 @@ export class LoggerService {
     @inject(CONFIG_INJECT_KEY)
     private options: InitOptions,
   ) {
-    this.logLevel = options.logLevel ?? 'log';
-    this.logger = options.logger ?? console;
+    this.logLevel = this.options.logLevel ?? 'log';
+    this.logger = this.options.logger ?? console;
   }
 
   debug(...args: any[]) {
