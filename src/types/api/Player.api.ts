@@ -13,7 +13,7 @@ export interface PlayerApi {
   addToList(listId: string, itemId: string): Promise<void>;
 }
 
-export type ActivityEventType = 'activity:ended' | 'system:routeChanged' | 'system:getProfile'
+export type ActivityEventType = 'event:activityEnded' | 'quest:configChanged' | 'request:getProfile'
 
 export interface ActivityEventData {}
 

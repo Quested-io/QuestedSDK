@@ -6,8 +6,8 @@
 
 # Type Alias: ActivityEventType
 
-> **ActivityEventType**: `"activity:ended"` \| `"system:routeChanged"` \| `"system:getProfile"`
+> **ActivityEventType**: `"event:activityEnded"` \| `"quest:configChanged"` \| `"request:getProfile"`
 
 ## Defined in
 
-[types/api/Player.api.ts:16](https://github.com/Quested-io/QuestedSDK/blob/7cca5d6dbb7b148176e912faa5f521fc6c4016d8/src/types/api/Player.api.ts#L16)
+[types/api/Player.api.ts:16](https://github.com/Quested-io/QuestedSDK/blob/3c926bace64edd594f0827ec501887cd4a53cdbb/src/types/api/Player.api.ts#L16)
