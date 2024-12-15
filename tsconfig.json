@@ -20,14 +20,13 @@
     "strict": true,
 
     // Type-checking settings.
-    "lib": [
-      "es2023",
-      "dom"
-    ],
+    "lib": ["es2023", "dom"],
     "skipLibCheck": true,
-    "types": ["jest"],
+    "types": ["jest", "reflect-metadata"],
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "sourceMap": true
   },
   "include": ["./src/**/*.ts"]
 }

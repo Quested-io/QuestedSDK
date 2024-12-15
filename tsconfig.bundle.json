@@ -6,8 +6,8 @@
     "outDir": "./dist",
     "sourceMap": true,
     "target": "es2015", // It's a JavaScript from almost 10 years ago. If your
-                        // consumer can't support it, it's theirs problem not
-                        // yours.
+    // consumer can't support it, it's theirs problem not
+    // yours.
 
     // Type declaration settings.
     "declaration": true,
@@ -16,7 +16,7 @@
 
     // Type-checking settings.
     "skipLibCheck": false,
-    "types": []
+    "types": ["reflect-metadata"]
   },
   "exclude": ["./src/**/*.test.ts"]
 }

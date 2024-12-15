@@ -6,8 +6,8 @@
 
 # Variable: instance
 
-> **instance**: `Instance`
+> **instance**: [`Instance`](../interfaces/Instance.md)
 
 ## Defined in
 
-[index.ts:6](https://github.com/Quested-io/QuestedSDK/blob/ef4116ab0b8e5fd1331f0760c5a4acf4f5fdbd5a/src/index.ts#L6)
+[index.ts:12](https://github.com/Quested-io/QuestedSDK/blob/7cca5d6dbb7b148176e912faa5f521fc6c4016d8/src/index.ts#L12)
