@@ -1,4 +1,4 @@
-import { isNumberParseable } from './';
+import {isNumberParseable} from "../index";
 
 describe('unit | isNumberParseable', () => {
   it('returns `true` for values parseable number', () => {
