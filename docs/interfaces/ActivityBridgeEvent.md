@@ -162,7 +162,7 @@ Returns the data of the message.
 
 #### type
 
-> **type**: [`ActivityEventType`](../type-aliases/ActivityEventType.md)
+> **type**: `string`
 
 #### Overrides
 
@@ -170,7 +170,7 @@ Returns the data of the message.
 
 #### Defined in
 
-[src/types/api/Player.api.ts:35](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/types/api/Player.api.ts#L35)
+[src/types/api/Player.api.ts:36](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/api/Player.api.ts#L36)
 
 ***
 

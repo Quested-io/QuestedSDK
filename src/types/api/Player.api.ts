@@ -29,7 +29,8 @@ export type ActivityEventType =
   | 'action:updateProfileSpecification'
   | 'action:setGameProperty'
   | 'action:removeFromList'
-  | 'action:addToList';
+  | 'action:addToList'
+  | string
 
 export interface ActivityBridgeEvent extends MessageEvent {
   data: {

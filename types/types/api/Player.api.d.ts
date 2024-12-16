@@ -10,7 +10,7 @@ export interface PlayerApi {
     removeFromList(listId: string, itemId: string): Promise<void>;
     addToList(listId: string, itemId: string): Promise<void>;
 }
-export type ActivityEventType = 'event:activityEnded' | 'quest:configChanged' | 'request:getProfile' | 'request:me' | 'request:gameProperty' | 'request:allLists' | 'action:updateProfileSpecification' | 'action:setGameProperty' | 'action:removeFromList' | 'action:addToList';
+export type ActivityEventType = 'event:activityEnded' | 'quest:configChanged' | 'request:getProfile' | 'request:me' | 'request:gameProperty' | 'request:allLists' | 'action:updateProfileSpecification' | 'action:setGameProperty' | 'action:removeFromList' | 'action:addToList' | string;
 export interface ActivityBridgeEvent extends MessageEvent {
     data: {
         source: string;

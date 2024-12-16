@@ -16,7 +16,9 @@
 
     // Type-checking settings.
     "skipLibCheck": false,
-    "types": ["reflect-metadata"]
+    "types": ["reflect-metadata"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "exclude": ["./src/**/*.test.ts"]
 }

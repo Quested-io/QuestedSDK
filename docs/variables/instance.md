@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[src/index.ts:13](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/index.ts#L13)
+[src/index.ts:13](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/index.ts#L13)

@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/types/Instance.ts:6](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/types/Instance.ts#L6)
+[src/types/Instance.ts:6](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/Instance.ts#L6)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/types/Instance.ts:5](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/types/Instance.ts#L5)
+[src/types/Instance.ts:5](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/Instance.ts#L5)
 
 ***
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[src/types/Instance.ts:7](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/types/Instance.ts#L7)
+[src/types/Instance.ts:7](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/Instance.ts#L7)

@@ -22,6 +22,13 @@ const options = {
     ],
   },
   resolver: 'ts-jest-resolver',
+  globals: {
+    window: {
+      parent: {
+        postMessage: () => {}
+      }
+    },
+  },
 };
 
 module.exports = options;
