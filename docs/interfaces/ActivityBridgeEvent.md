@@ -170,7 +170,7 @@ Returns the data of the message.
 
 #### Defined in
 
-[src/types/api/Player.api.ts:35](https://github.com/Quested-io/QuestedSDK/blob/d387b089096cdc48cdbe8bba3fb1568d263c8322/src/types/api/Player.api.ts#L35)
+[src/types/api/Player.api.ts:35](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/types/api/Player.api.ts#L35)
 
 ***
 

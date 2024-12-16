@@ -1,5 +1,5 @@
 /*!
- * @quested/sdk v0.1.5
+ * @quested/sdk v0.1.6
  * (c) Yevhenii Rachkovan
  * Released under the MIT License.
  */
@@ -190,10 +190,7 @@ PlayerService = __decorate([
     __metadata("design:paramtypes", [BridgeService, Object])
 ], PlayerService);
 
-const Components = [
-    PlayerService,
-    LoggerService,
-];
+const Components = [PlayerService, LoggerService, BridgeService];
 const create = (options) => {
     let isInitialized = false;
     const container = new Container();

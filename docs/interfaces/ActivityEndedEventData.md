@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/types/api/Player.api.ts:48](https://github.com/Quested-io/QuestedSDK/blob/d387b089096cdc48cdbe8bba3fb1568d263c8322/src/types/api/Player.api.ts#L48)
+[src/types/api/Player.api.ts:48](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/types/api/Player.api.ts#L48)
 
 ***
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/types/api/Player.api.ts:46](https://github.com/Quested-io/QuestedSDK/blob/d387b089096cdc48cdbe8bba3fb1568d263c8322/src/types/api/Player.api.ts#L46)
+[src/types/api/Player.api.ts:46](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/types/api/Player.api.ts#L46)
 
 ***
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[src/types/api/Player.api.ts:47](https://github.com/Quested-io/QuestedSDK/blob/d387b089096cdc48cdbe8bba3fb1568d263c8322/src/types/api/Player.api.ts#L47)
+[src/types/api/Player.api.ts:47](https://github.com/Quested-io/QuestedSDK/blob/29424442c7d73cf9342de9175eb7912246e4503f/src/types/api/Player.api.ts#L47)

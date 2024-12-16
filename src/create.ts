@@ -1,15 +1,13 @@
 import { Container } from 'inversify';
-import type {Instance} from './types/Instance';
+import type { Instance } from './types/Instance';
 import { PlayerService } from './api/Player.service';
-import type {InitOptions} from './types/InitOptions';
+import type { InitOptions } from './types/InitOptions';
 import { CONFIG_INJECT_KEY } from './config';
 import { LoggerService } from './utils/Logger.service';
-import type {OnInstanceInit} from './types/OnInstanceInit';
+import type { OnInstanceInit } from './types/OnInstanceInit';
+import { BridgeService } from './utils/Bridge.service';
 
-const Components: any[] = [
-  PlayerService,
-  LoggerService,
-];
+const Components: any[] = [PlayerService, LoggerService, BridgeService];
 
 export const create = (options: InitOptions): Instance => {
   let isInitialized = false;
