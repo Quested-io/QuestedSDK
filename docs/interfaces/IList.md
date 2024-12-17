@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[types/entities/IList.ts:12](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L12)
+[src/types/entities/IList.ts:12](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L12)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[types/entities/IList.ts:7](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L7)
+[src/types/entities/IList.ts:7](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L7)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[types/entities/IList.ts:9](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L9)
+[src/types/entities/IList.ts:9](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L9)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[types/entities/IList.ts:4](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L4)
+[src/types/entities/IList.ts:4](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L4)
 
 ***
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[types/entities/IList.ts:11](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L11)
+[src/types/entities/IList.ts:11](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L11)
 
 ***
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[types/entities/IList.ts:6](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L6)
+[src/types/entities/IList.ts:6](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L6)
 
 ***
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[types/entities/IList.ts:5](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L5)
+[src/types/entities/IList.ts:5](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L5)
 
 ***
 
@@ -84,7 +84,7 @@
 
 #### Defined in
 
-[types/entities/IList.ts:10](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L10)
+[src/types/entities/IList.ts:10](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L10)
 
 ***
 
@@ -94,4 +94,4 @@
 
 #### Defined in
 
-[types/entities/IList.ts:13](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IList.ts#L13)
+[src/types/entities/IList.ts:13](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IList.ts#L13)

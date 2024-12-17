@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[types/entities/ISpecification.ts:18](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L18)
+[src/types/entities/ISpecification.ts:18](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/ISpecification.ts#L18)

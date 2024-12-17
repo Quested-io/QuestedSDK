@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[index.ts:8](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/index.ts#L8)
+[src/index.ts:8](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/index.ts#L8)

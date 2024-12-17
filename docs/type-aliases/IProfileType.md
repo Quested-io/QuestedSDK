@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[types/entities/IProfile.ts:16](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/IProfile.ts#L16)
+[src/types/entities/IProfile.ts:16](https://github.com/Quested-io/QuestedSDK/blob/3ff90c0a0f9090e518d0fc8b569b6bd9c3728f32/src/types/entities/IProfile.ts#L16)
