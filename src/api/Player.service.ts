@@ -18,7 +18,7 @@ export class PlayerService implements PlayerApi {
   async me(): Promise<IProfile> {
     return this.bridgeService.sendAndWaitForReply(
       this.options.activityId,
-      'getProfile',
+      'request:getProfile',
       {},
     );
   }

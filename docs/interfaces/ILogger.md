@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[types/ILogger.ts:4](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/ILogger.ts#L4)
+[types/ILogger.ts:4](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/ILogger.ts#L4)
 
 ***
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[types/ILogger.ts:6](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/ILogger.ts#L6)
+[types/ILogger.ts:6](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/ILogger.ts#L6)
 
 ***
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[types/ILogger.ts:5](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/ILogger.ts#L5)
+[types/ILogger.ts:5](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/ILogger.ts#L5)
 
 ***
 
@@ -76,7 +76,7 @@
 
 #### Defined in
 
-[types/ILogger.ts:2](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/ILogger.ts#L2)
+[types/ILogger.ts:2](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/ILogger.ts#L2)
 
 ***
 
@@ -94,4 +94,4 @@
 
 #### Defined in
 
-[types/ILogger.ts:3](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/ILogger.ts#L3)
+[types/ILogger.ts:3](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/ILogger.ts#L3)

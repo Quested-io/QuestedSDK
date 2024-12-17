@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[types/OnInstanceInit.ts:2](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/OnInstanceInit.ts#L2)
+[types/OnInstanceInit.ts:2](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/OnInstanceInit.ts#L2)

@@ -1,5 +1,5 @@
 /*!
- * @quested/sdk v0.1.8
+ * @quested/sdk v0.1.9
  * (c) Yevhenii Rachkovan
  * Released under the MIT License.
  */
@@ -120,10 +120,10 @@
                 }, '*');
             });
         }
-        waitForReply(activityId, eventType) {
+        waitForReply(eventType) {
             return new Promise((resolve, reject) => {
                 const listener = (event) => {
-                    if (event.data.type === eventType && event.data.source === activityId) {
+                    if (event.data.type === eventType && event.data.source === 'QUESTED') {
                         cleanup();
                         resolve(event.data.payload);
                     }
@@ -142,7 +142,7 @@
         sendAndWaitForReply(activityId, eventType, payload) {
             return __awaiter(this, void 0, void 0, function* () {
                 yield this.send(activityId, eventType, payload);
-                return this.waitForReply(activityId, eventType);
+                return this.waitForReply(eventType);
             });
         }
     };
@@ -159,7 +159,7 @@
         }
         me() {
             return __awaiter(this, void 0, void 0, function* () {
-                return this.bridgeService.sendAndWaitForReply(this.options.activityId, 'getProfile', {});
+                return this.bridgeService.sendAndWaitForReply(this.options.activityId, 'request:getProfile', {});
             });
         }
         trackEvent(event, data) {

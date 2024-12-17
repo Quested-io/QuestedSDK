@@ -22,10 +22,10 @@ export class BridgeService {
     );
   }
 
-  waitForReply(activityId: string, eventType: string): Promise<any> {
+  waitForReply(eventType: string): Promise<any> {
     return new Promise((resolve, reject) => {
       const listener = (event: MessageEvent) => {
-        if (event.data.type === eventType && event.data.source === activityId) {
+        if (event.data.type === eventType && event.data.source === 'QUESTED') {
           cleanup();
           resolve(event.data.payload);
         }
@@ -55,6 +55,6 @@ export class BridgeService {
     payload: any,
   ): Promise<any> {
     await this.send(activityId, eventType, payload);
-    return this.waitForReply(activityId, eventType);
+    return this.waitForReply(eventType);
   }
 }

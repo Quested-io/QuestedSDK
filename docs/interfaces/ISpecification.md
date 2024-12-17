@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:12](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L12)
+[types/entities/ISpecification.ts:12](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L12)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:13](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L13)
+[types/entities/ISpecification.ts:13](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L13)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:14](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L14)
+[types/entities/ISpecification.ts:14](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L14)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:11](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L11)
+[types/entities/ISpecification.ts:11](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L11)
 
 ***
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:7](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L7)
+[types/entities/ISpecification.ts:7](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L7)
 
 ***
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:8](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L8)
+[types/entities/ISpecification.ts:8](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L8)
 
 ***
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:5](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L5)
+[types/entities/ISpecification.ts:5](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L5)
 
 ***
 
@@ -84,7 +84,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:9](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L9)
+[types/entities/ISpecification.ts:9](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L9)
 
 ***
 
@@ -94,7 +94,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:6](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L6)
+[types/entities/ISpecification.ts:6](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L6)
 
 ***
 
@@ -104,7 +104,7 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:10](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L10)
+[types/entities/ISpecification.ts:10](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L10)
 
 ***
 
@@ -114,4 +114,4 @@
 
 #### Defined in
 
-[types/entities/ISpecification.ts:15](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/entities/ISpecification.ts#L15)
+[types/entities/ISpecification.ts:15](https://github.com/Quested-io/QuestedSDK/blob/2e6c04e8f318a3592a251a7c2085060b87b2bc38/src/types/entities/ISpecification.ts#L15)
