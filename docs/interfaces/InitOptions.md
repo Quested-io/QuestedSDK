@@ -14,27 +14,27 @@
 
 #### Defined in
 
-[src/types/InitOptions.ts:5](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/InitOptions.ts#L5)
+[types/InitOptions.ts:5](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/InitOptions.ts#L5)
 
 ***
 
 ### logger?
 
-> `optional` **logger**: `ILogger`
+> `optional` **logger**: [`ILogger`](ILogger.md)
 
 #### Defined in
 
-[src/types/InitOptions.ts:8](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/InitOptions.ts#L8)
+[types/InitOptions.ts:8](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/InitOptions.ts#L8)
 
 ***
 
 ### logLevel?
 
-> `optional` **logLevel**: `LogLevel`
+> `optional` **logLevel**: [`LogLevel`](../type-aliases/LogLevel.md)
 
 #### Defined in
 
-[src/types/InitOptions.ts:7](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/InitOptions.ts#L7)
+[types/InitOptions.ts:7](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/InitOptions.ts#L7)
 
 ***
 
@@ -48,4 +48,4 @@
 
 #### Defined in
 
-[src/types/InitOptions.ts:6](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/InitOptions.ts#L6)
+[types/InitOptions.ts:6](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/InitOptions.ts#L6)

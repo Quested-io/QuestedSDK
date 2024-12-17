@@ -14,17 +14,17 @@
 
 #### Defined in
 
-[src/types/Instance.ts:6](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/Instance.ts#L6)
+[types/Instance.ts:6](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/Instance.ts#L6)
 
 ***
 
 ### api
 
-> `readonly` **api**: `Api`
+> `readonly` **api**: [`Api`](Api.md)
 
 #### Defined in
 
-[src/types/Instance.ts:5](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/Instance.ts#L5)
+[types/Instance.ts:5](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/Instance.ts#L5)
 
 ***
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[src/types/Instance.ts:7](https://github.com/Quested-io/QuestedSDK/blob/3550914a1d85ffda34c55ad93945a570eb0505ba/src/types/Instance.ts#L7)
+[types/Instance.ts:7](https://github.com/Quested-io/QuestedSDK/blob/49b727c26a12b14175ad778bc40a297a85537c78/src/types/Instance.ts#L7)
