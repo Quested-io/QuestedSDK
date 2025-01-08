@@ -1,6 +1,6 @@
 {
   "name": "@quested/sdk",
-  "version": "0.1.10",
+  "version": "0.1.12",
   "description": "",
   "cdn": "dist/index.umd.js",
   "main": "dist/index.js",

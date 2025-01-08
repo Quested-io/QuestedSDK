@@ -25,6 +25,7 @@ export class BridgeService {
   waitForReply(eventType: string): Promise<any> {
     return new Promise((resolve, reject) => {
       const listener = (event: MessageEvent) => {
+        console.log('Reply event received for', eventType, event);
         if (event.data.type === eventType && event.data.source === 'QUESTED') {
           cleanup();
           resolve(event.data.payload);

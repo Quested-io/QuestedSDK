@@ -53,3 +53,17 @@ export interface ConfigChangedEventData extends ActivityEventData {
   oldSettings: string;
   newSettings: string;
 }
+
+export interface UpdateProfileSpecificationEventData extends ActivityEventData {
+  name: string;
+  value: string;
+}
+
+export interface GetGamePropertyEventData extends ActivityEventData {
+  key: string;
+}
+
+export interface SetGamePropertyEventData extends ActivityEventData {
+  key: string;
+  value: string;
+}
