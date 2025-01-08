@@ -41,6 +41,7 @@ export interface ActivityBridgeEvent extends MessageEvent {
 }
 
 export interface ActivityEventData {
+  [key: string]: any;
 }
 
 export interface ActivityEndedEventData extends ActivityEventData {
