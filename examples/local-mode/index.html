@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuestedSDK - Local Mode Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    pre {
+      background-color: #f0f0f0;
+      padding: 15px;
+      border-radius: 5px;
+      overflow: auto;
+    }
+    .output {
+      margin-top: 20px;
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      height: 300px;
+      overflow: auto;
+    }
+    button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .buttons {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>QuestedSDK - Local Mode Demo</h1>
+    <p>This demo shows how to use the QuestedSDK in local mode, which stores all data in the browser's localStorage.</p>
+    
+    <div class="buttons">
+      <button id="btnViewProfile">View Profile</button>
+      <button id="btnSetProperty">Set Property</button>
+      <button id="btnGetProperty">Get Property</button>
+      <button id="btnGetLists">Get Lists</button>
+      <button id="btnClearStorage">Clear Storage</button>
+    </div>
+    
+    <div class="output" id="output">
+      <!-- Output will appear here -->
+    </div>
+  </div>
+
+  <script type="module">
+    import { init } from '../../dist/index.esm.js';
+    
+    // Output element
+    const output = document.getElementById('output');
+    
+    // Log function to display in output div
+    function log(message) {
+      if (typeof message === 'object') {
+        message = JSON.stringify(message, null, 2);
+      }
+      output.innerHTML += `<div>${message}</div>`;
+      output.scrollTop = output.scrollHeight;
+    }
+
+    // Clear log
+    function clearLog() {
+      output.innerHTML = '';
+    }
+    
+    // Initialize the SDK with local mode
+    const sdk = init({
+      activityId: 'test-activity',
+      mode: 'local', // This enables local storage mode
+      onReady: () => {
+        log('SDK initialized in local mode');
+      }
+    });
+    
+    // View Profile button
+    document.getElementById('btnViewProfile').addEventListener('click', async () => {
+      try {
+        const profile = await sdk.api.player.me();
+        log('Current profile:');
+        log(profile);
+      } catch (error) {
+        log(`Error: ${error.message}`);
+      }
+    });
+    
+    // Set Property button
+    document.getElementById('btnSetProperty').addEventListener('click', async () => {
+      try {
+        const value = prompt('Enter a value for the "score" property:', '100');
+        if (value) {
+          await sdk.api.player.setGameProperty('score', value);
+          log(`Set game property: score = ${value}`);
+        }
+      } catch (error) {
+        log(`Error: ${error.message}`);
+      }
+    });
+    
+    // Get Property button
+    document.getElementById('btnGetProperty').addEventListener('click', async () => {
+      try {
+        const score = await sdk.api.player.getGameProperty('score');
+        log(`Retrieved game property: score = ${score}`);
+      } catch (error) {
+        log(`Error: ${error.message}`);
+      }
+    });
+    
+    // Get Lists button
+    document.getElementById('btnGetLists').addEventListener('click', async () => {
+      try {
+        const lists = await sdk.api.player.getAllLists();
+        log('Available lists:');
+        log(lists);
+      } catch (error) {
+        log(`Error: ${error.message}`);
+      }
+    });
+    
+    // Clear Storage button
+    document.getElementById('btnClearStorage').addEventListener('click', () => {
+      const prefix = 'quested_sdk_';
+      Object.keys(localStorage)
+        .filter(key => key.startsWith(prefix))
+        .forEach(key => localStorage.removeItem(key));
+      
+      log('Local storage cleared. Refresh the page to reinitialize with default data.');
+    });
+  </script>
+</body>
+</html>

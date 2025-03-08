@@ -26,9 +26,18 @@ const options = {
     window: {
       parent: {
         postMessage: () => {}
+      },
+      localStorage: {
+        getItem: () => null,
+        setItem: () => {},
+        clear: () => {},
+        removeItem: () => {},
+        length: 0,
+        key: () => null
       }
     },
   },
+  testEnvironment: 'jsdom',
 };
 
 module.exports = options;

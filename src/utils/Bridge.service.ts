@@ -1,8 +1,9 @@
 import { inject, injectable } from 'inversify';
 import { LoggerService } from './Logger.service';
+import type { IStorageService } from '../types/IStorageService';
 
 @injectable()
-export class BridgeService {
+export class BridgeService implements IStorageService {
   private readonly TIMEOUT_MS = 5000;
 
   constructor(
